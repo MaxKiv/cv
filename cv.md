@@ -1,56 +1,61 @@
-## Max Kivits
-
-### **Personal Details**
-
-**Phone**: +31620434360  
-**Email**: m.p.w.kivits@gmail.com  
-**Date of Birth**: 29/11/1995  
-**Location**: The Netherlands  
-**LinkedIn**: [linkedin.com/in/max-kivits](https://www.linkedin.com/in/max-kivits)  
-**GitHub**: [github.com/maxkiv](https://github.com/maxkiv)  
-
+---
+name: Max Kivits
+header:
+  - text: <span class="iconify" data-icon="tabler:phone"></span> 0620434360
+  - text: <span class="iconify" data-icon="tabler:mail"></span> m.p.w.kivits@gmail.com
+    link: mailto:m.p.w.kivits@gmail.com
+  - text: <span class="iconify" data-icon="tabler:brand-github"></span> MaxKiv
+    link: https://github.com/maxkiv
+  - text: <span class="iconify" data-icon="tabler:brand-linkedin"></span> max-kivits
+    link: https://www.linkedin.com/in/max-kivits
+  - text: <span class="iconify" data-icon="ic:outline-location-on"></span> The Netherlands
+    newLine: true
+    
 ---
 
-### **Professional Summary**
 
-I am a dedicated robotics engineer with a passion for working in diverse teams that foster a growth mindset. My goal is to further my expertise in robotics, embedded systems, control theory, and software engineering, contributing to innovative and impactful projects.
+## **Summary**
 
----
+Robotics engineer with expertise in embedded systems, control theory, and
+software engineering. Passionate about collaborative, growth-oriented teams and
+developing innovative robotics to solve problems that matter.
 
-### **Work Experience**
+## **Work Experience**
+#### Embedded Software Engineer - Nefit Bosch Deventer (2022 - 2024)
 
-#### **Embedded Software Engineer**  
-**Engineero**  
-*October 2022 - April 2024*
 
-- Developed a C# GUI desktop application and C firmware for laser power supplies.
-- Seconded to R&D Nefit Bosch, Deventer for 13 months.
-  - Worked on C++ firmware for Boiler Control Units running EmbOS.
-  - Developed hardware drivers, communication stacks, business logic.
-  - Improved error handling and contributed to an x86 Windows firmware simulator.
+- Developed cross-platform C++17 Cortex-M4 firmware (STM, Renesas) for custom hardware using the EmbOS RTOS.
+- Built and maintained drivers for GPIO, ADC, UART, SPI, I2C, and the LIN and CAN stacks.
+- Desgined custom firmware and hardware for integration testing on a Jenkins-based CI/CD server
+- Contributed to a Windows firmware simulator leveraging an x86 EmbOS simulation library for Systemtesting.
+- Centralized development efforts by reconciling multiple git repository forks and promoting code quality through reviews and pair programming.
+- Expanded the Linux/WSL dev tooling and CMake build scripts
 
-#### **Robotics Developer**  
-**Teqram**  
-*January 2022 - September 2022*
+#### Embedded Software Consultant - SFC Energy Almelo (2022)  
 
-- Developed algorithms for ABB IRB 7600 to pick metal parts using magnetic grippers, utilizing C++ and Lua.
-- Created a C++/Lua UDP server for tracking products through a factory.
-- Built a Java-based Android app to interface with the server.
+- Developed a C# library implementing a custom serial communication protocol to interface with industrial power supply units
+- Worked on a C#11 .NET MAUI GUI application which uses above library to greatly reduce power supply configuration time in production
+
+#### Embedded Software Engineer - Engineero (2022 - 2024)
+
+- Researched and presented the advantages of using modern C++ over C for firmware development
+
+#### Robotics Developer - Teqram (2022)
+- Developed and maintained software for an ABB IRB 7600 to automate metal part handling with magnetic grippers, utilizing C++ and Lua.
+- Improved factory inventory tracking by building a Java Android app for barcode scanners that communicate with C++/Lua UDP server.
 - Extended legacy C++ CRM, quoting, and management software using the QT4 framework.
 
 #### **Control Engineer Intern**  
 **Corvus Drones**  
 *2020*
 
-- Worked on the landing procedure of a greenhouse monitoring UAV and its
-pathfinding using IMU and VIO.
-- Utilized C++ and ROS1 for development.
+- Worked on the landing procedure of a greenhouse monitoring UAV and its pathfinding using VIO.
+- Utilized C++, ROS1 and python for development.
 
----
+## **Education**
 
-### **Education**
+#### Master of Science in Electrical Engineering 
 
-#### **Master of Science in Electrical Engineering**  
 **University of Twente**  
 *2019 - 2022*  
 - **Specialisation**: Robotics and Mechatronics  
@@ -63,9 +68,8 @@ pathfinding using IMU and VIO.
 - **Thesis**: Machine Learning - CNN for early stage melanoma detection using data augmentation and transfer learning, built in MATLAB  
 - **Subjects**: Circuit Analysis, Signal Processing, Control Theory
 
----
 
-### **Skills**
+## **Skills**
 
 **Technical Skills:**
 - Robotics Software Development
@@ -92,15 +96,4 @@ pathfinding using IMU and VIO.
 - Technical Documentation
 - Project Management
 - Research and Development
-
----
-
-### **Projects and Publications**
-
-- **Development of Autonomous Navigation System for Industrial Robots**  
-  - Implemented path planning algorithms and integrated sensor fusion techniques for accurate navigation.
-
-- **Optimized Motion Control for Robotic Arms**  
-  - Developed control algorithms for precise and efficient movement.
-  - Enhanced performance of robotic arms in industrial settings.
 
