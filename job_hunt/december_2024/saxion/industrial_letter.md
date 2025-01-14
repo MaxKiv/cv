@@ -19,8 +19,7 @@ extensive test labs and interaction with students only increase my excitement to
 be part of your amazing group.
 
 
-I love working on problems that cross disciplines, as evidenced by my studies,
-personal projects and varied professional experience. 
+I love working on problems that cross disciplines as demonstrated by my varied academic, professional, and personal experiences
 During my thesis I worked on
 controlling a heterogeneous fleet of generic multirotor UAVs using Nonlinear
 Model Predictive Control to cooperatively estimate the state of a target object
